@@ -13,6 +13,12 @@ void solve() {
     perform();
     perform();
     perform();
+    /*
+    this prints:
+    1
+    2
+    3... but one thinks that it will print 1 1 1... this is because static int remains the whole time in the program!
+    */
 }
 
 int main() {
