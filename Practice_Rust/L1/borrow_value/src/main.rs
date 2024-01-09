@@ -16,16 +16,16 @@
 
 // WAY 2: We are directly passing the reference of s1 in the function of print
 
-fn print(s:&String){ // now we are using the reference by pointer // Here & is important, you cannot use it without it
-	println!("{}, world!", s);
-	// s // this is the return
-}
+// fn print(s:&String){ // now we are using the reference by pointer // Here & is important, you cannot use it without it
+// 	println!("{}, world!", s);
+// 	// s // this is the return
+// }
 
-fn main() {
-    let s1 = String::from("Hello");
-    print(&s1); // here we are passing the returned value from the function
-    println!("{}, world!", s1);
-}
+// fn main() {
+//     let s1 = String::from("Hello");
+//     print(&s1); // here we are passing the returned value from the function
+//     println!("{}, world!", s1);
+// }
 
 //----------------------------------------------------------------
 
