@@ -6,4 +6,5 @@ fn main() {
 	else {
 		println!("Not 3");
 	}
+	// here we just get Value 3 as the output. NOTE: Even a = 0 works and will still output Value 3.
 }
