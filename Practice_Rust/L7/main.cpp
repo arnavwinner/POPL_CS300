@@ -13,6 +13,8 @@ using namespace std;
 
 void solve() {
 	// cout << "Hello World" << '\n';
+	cout << gcd(108, 12) << '\n';
+	cout << (108 * 12) / gcd(108, 12) << '\n';
 }
 
 int main() {
