@@ -7,14 +7,20 @@ Strongly Typed, Statically Typed, Dynamically Typed
 */
 
 // author: arnavwinner
-
+™
 #include <bits/stdc++.h>
 using namespace std;
 
 void solve() {
-	// cout << "Hello World" << '\n';
-	cout << gcd(108, 12) << '\n';
-	cout << (108 * 12) / gcd(108, 12) << '\n';
+	// float *f;
+	// float ff = 3.14;
+	// f = &ff;
+	// cout << *f << '\n';
+	// cout << *(int *)&f << '\n';
+	// cout << (int)*f << '\n';
+
+	float f = 3.14;
+	cout << (int)*&f << '\n';
 }
 
 int main() {
