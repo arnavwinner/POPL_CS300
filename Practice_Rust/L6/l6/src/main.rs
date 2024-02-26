@@ -9,8 +9,12 @@ fn main() {
 	// 	_ => println!("Only 1 digit allowed!"),
 	// }
 
+	for i in (1..12).step_by(2) {
+		println!("{}", i);
+	}
 
-	let num = 20;
+
+	let num = 12;
 	match num {
 		13..=19 => println!("Teenager!"),
 		_ => println!("Non Teenager!")

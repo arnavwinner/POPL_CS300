@@ -19,6 +19,7 @@ fn main() {
 	let mut s1 = String::from("Hello");
 	let r1 = &s1;
 	let r2 = &mut s1; // here it is wrong, now you have already defined &s1 before which is immutable borrowing that you have already done, and now here you are borrowing as mutable which is incorrect for some reason
+
 	println!("{}, World", r1);
 	println!("{}, World", r2);
 }

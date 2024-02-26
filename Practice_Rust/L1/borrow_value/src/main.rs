@@ -31,14 +31,14 @@
 
 // WAY 3: We are using a new non-mutable variable r1 which is given the reference of s1 for passing it to print function
 
-// fn print(s:&String){ // now we are using the reference by pointer // Here & is important, you cannot use it without it
-// 	println!("{}, world!", s);
-// 	// s // this is the return
-// }
+fn print(s:&String){ // now we are using the reference by pointer // Here & is important, you cannot use it without it
+	println!("{}, world!", s);
+	// s // this is the return
+}
 
-// fn main() {
-//     let s1 = String::from("Hello");
-//     let r1 = &s1; // here we are passing the returned value from the function
-//     print(r1);
-//     println!("{}, world!", s1);
-// }
+fn main() {
+    let s1 = String::from("Hello");
+    let r1 = &s1; // here we are passing the returned value from the function
+    print(r1);
+    println!("{}, world!", s1);
+}

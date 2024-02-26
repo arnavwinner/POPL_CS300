@@ -17,7 +17,7 @@ fn main() {
 	'counting: loop {
 		println!("Again!");
 		loop {
-			if i == 2{
+			if i == 2 {
 				// break;
 				break 'counting;
 			}
