@@ -17,7 +17,7 @@ print(sum(5))
 
 
 def fun(i, l = []):
-	# print(id(l))
+	# print(id(l)) l is mutable, it is globally declared here
 	l.append(i)
 	return l
 
